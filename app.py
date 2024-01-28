@@ -1,12 +1,11 @@
 from flask import Flask, render_template, request, jsonify
-from dotenv import load_dotenv
 import os
 import marko
 import google.generativeai
 app = Flask(__name__)
 
-load_dotenv()
-google.generativeai.configure(api_key=os.getenv("API_KEY"))
+
+google.generativeai.configure(api_key="AIzaSyDp9UIHKwUeghwSQRrhxrCy2OBN2Jk07bg")
 
 def get_gemini_response(input, image, prompt):
     model = google.generativeai.GenerativeModel('gemini-pro-vision')
