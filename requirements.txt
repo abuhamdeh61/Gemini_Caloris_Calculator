@@ -1,4 +1,4 @@
 flask==3.0.0
-marko==1.0.0
-google==3.0.0
-generativeai==2.0.0
+marko
+google
+generativeai
