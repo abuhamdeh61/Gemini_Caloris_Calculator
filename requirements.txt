@@ -1,7 +1,5 @@
-flask==3.0.0
+flask
+dotenv
 marko
 google
 generativeai
-dotenv
-setuptools
-distribute
