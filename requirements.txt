@@ -1,4 +1,3 @@
 flask
 marko
-google
-generativeai
+google.generativeai
