@@ -1,0 +1,5 @@
+flask==3.0.0
+dotenv==0.19.0
+marko==1.0.0
+google==3.0.0
+generativeai==2.0.0
