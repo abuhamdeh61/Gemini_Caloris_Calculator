@@ -3,3 +3,5 @@ marko
 google
 generativeai
 dotenv
+setuptools
+distribute
